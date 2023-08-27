@@ -4,11 +4,10 @@ import { toast } from "react-hot-toast"
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai"
 import { useDispatch } from "react-redux"
 import { useNavigate } from "react-router-dom"
-
 import { sendOtp } from "../Services/operations/authAPI"
 import { setSignupData } from "../slices/authSlice"
 import { ACCOUNT_TYPE } from "../utils/constant"
-import Tab from "../common/Tab"
+import Tab from "../Components/common/Tab"
 
 function SignupForm() {
   const navigate = useNavigate()
@@ -65,20 +64,20 @@ function SignupForm() {
       password: "",
       confirmPassword: "",
     })
-    setAccountType(ACCOUNT_TYPE.STUDENT)
+    setAccountType(ACCOUNT_TYPE.BUYER)
   }
 
   // data to pass to Tab component
   const tabData = [
     {
       id: 1,
-      tabName: "Student",
-      type: ACCOUNT_TYPE.STUDENT,
+      tabName: "Buyer",
+      type: ACCOUNT_TYPE.BUYER,
     },
     {
       id: 2,
-      tabName: "Instructor",
-      type: ACCOUNT_TYPE.INSTRUCTOR,
+      tabName: "Seller",
+      type: ACCOUNT_TYPE.SELLER,
     },
   ]
 
