@@ -4,8 +4,10 @@ Team Email :
 Sujalverma13102003@gmail.com
 Theme Chosen : Open
 Team ENMA
-Team Members Name : Sujal Verma,
-Yash Gupta, Wali Ahed Hussain, Vishal Raj.
+Team Members Name : Sujal Verma
+                    Yash Gupta
+                    Wali Ahed Hussain
+                    Vishal Raj.
 
 what is coupon corner?
 
